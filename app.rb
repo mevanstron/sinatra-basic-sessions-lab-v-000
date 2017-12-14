@@ -15,6 +15,7 @@ class App < Sinatra::Base
     #binding.pry
     session[:items] = params
     @session = session
-    binding.pry
+    #binding.pry
+    erb :show
   end
 end
